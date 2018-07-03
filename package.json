@@ -1,0 +1,23 @@
+{
+	"name": "simple-redux-log",
+	"version": "1.0.0",
+	"description": "A HOC to log Actions and State in redux",
+	"main": "dist.js",
+	"scripts": {
+		"build": "babel index.js -o dist.js"
+	},
+	"files": [
+		"dist.js"
+	],
+	"keywords": [
+		"redux",
+		"react"
+	],
+	"author": "Harsha Attray",
+	"license": "MIT",
+	"devDependencies": {
+		"babel-cli": "6.26.0",
+		"babel-preset-env": "1.6.1",
+		"babel-preset-react": "6.24.1"
+	}
+}
